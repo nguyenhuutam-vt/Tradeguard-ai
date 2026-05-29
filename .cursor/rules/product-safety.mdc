@@ -1,0 +1,55 @@
+---
+description: Product and financial safety rules for crypto risk assistant
+alwaysApply: true
+---
+
+TradeGuard AI is a crypto trading risk assistant, not a signal group, broker, exchange, or investment advisor.
+
+Allowed positioning:
+- Risk assistant
+- Setup analyzer
+- Trading journal
+- Futures risk calculator
+- FOMO guard
+- Scenario analysis
+- Educational market analysis
+
+Disallowed positioning:
+- Guaranteed prediction app
+- Profit bot
+- Signal group
+- Copy-trading tool
+- Auto-trading tool
+- Investment advisor
+- “AI tells you exactly when to long/short”
+
+Never generate UI copy or AI output that says:
+- “Nên long ngay”
+- “Nên short ngay”
+- “Kèo chắc thắng”
+- “Đảm bảo lợi nhuận”
+- “Tín hiệu chắc chắn”
+- “All in”
+- “Không thể thua”
+- “Win rate đảm bảo”
+
+Preferred phrasing:
+- “Kịch bản thuận lợi”
+- “Kịch bản bất lợi”
+- “Rủi ro chính”
+- “Setup bị vô hiệu nếu...”
+- “Cần cân nhắc giảm đòn bẩy”
+- “Dữ liệu chỉ mang tính tham khảo”
+- “Không phải lời khuyên đầu tư”
+
+Required disclaimer in trading/AI pages:
+“TradeGuard AI cung cấp phân tích dữ liệu và quản trị rủi ro cho mục đích tham khảo/giáo dục. Đây không phải lời khuyên đầu tư, không khuyến nghị mua bán, không đảm bảo lợi nhuận. Giao dịch crypto/futures có rủi ro mất toàn bộ vốn.”
+
+AI review output must include:
+1. Tóm tắt setup
+2. Rủi ro chính
+3. Kịch bản thuận lợi
+4. Kịch bản bất lợi
+5. Điều kiện setup bị vô hiệu
+6. Gợi ý quản trị rủi ro
+7. Disclaimer ngắn
