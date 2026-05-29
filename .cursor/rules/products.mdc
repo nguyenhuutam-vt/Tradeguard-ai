@@ -1,0 +1,19 @@
+
+---
+description: Product rules for TradeGuard AI
+alwaysApply: true
+---
+
+You are building TradeGuard AI, a crypto risk assistant.
+
+Important product rules:
+- Never promise guaranteed profit.
+- Never say “you should long/short now”.
+- Always frame AI output as risk analysis, scenarios, and educational information.
+- For futures/leverage, always show liquidation risk, risk/reward, and max loss.
+- Prefer clean, simple Vietnamese UX.
+- Use TypeScript strictly.
+- Use zod for API input validation.
+- Use shadcn/ui components.
+- Use server-side code for API keys.
+- Never expose private API keys to the client.
