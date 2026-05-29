@@ -14,6 +14,10 @@ export function toJournalUserMessage(error: unknown, fallback: string): string {
     return "Bảng dữ liệu chưa được tạo trên Supabase. Vui lòng chạy migration.";
   }
 
+  if (code === "42703" || message.includes("does not exist")) {
+    return "Schema Supabase chưa đồng bộ với app. Vui lòng chạy migration mới nhất trong thư mục supabase/migrations.";
+  }
+
   if (code === "42501" || message.includes("permission denied")) {
     return "Bạn không có quyền truy cập dữ liệu này.";
   }
@@ -39,6 +43,10 @@ export function toJournalUserMessage(error: unknown, fallback: string): string {
 
 export function logJournalError(scope: string, error: unknown) {
   if (process.env.NODE_ENV !== "production") {
-    console.error(`[journal:${scope}]`, error);
+    const details =
+      error instanceof Error
+        ? { name: error.name, message: error.message, stack: error.stack }
+        : error;
+    console.error(`[journal:${scope}]`, details);
   }
 }
